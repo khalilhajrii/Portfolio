@@ -4,7 +4,7 @@ import React from "react";
 function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
                 <div className="container-fluid">
                     <a class="navbar-brand" href="#a">
                         خليل
@@ -21,7 +21,7 @@ function Header() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="b">
                                     WHO AM I ?
@@ -63,10 +63,16 @@ function Header() {
                                 </a>
                             </li>
                         </ul>
+                        <a
+                            href='mailto:khalil.hajri@esen.tn'
+                            className="btn3"
+                        >
+                            Let's Talk
+                        </a>
                     </div>
                 </div>
             </nav>
-            </div>
+        </div>
     );
 }
 
