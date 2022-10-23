@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "logo": "خليل",
+    "talk_button": "Let's Talk",
+    "items": [
+      {
+        "nav_item": "WHO AM I ?",
+        "url": "www.google.com"
+      },
+      {
+        "nav_item": "EDUCATION",
+        "url": "www.linkedin.com"
+      },
+      {
+        "nav_item": "EXPERIENCE"
+      },
+      {
+        "nav_item": "PROJECTS"
+      },
+      {
+        "nav_item": "SKILLS"
+      }
+    ]
+  },
+
+  "email": "khalil.hajri@esen.tn"
+}

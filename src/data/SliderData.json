@@ -1,0 +1,13 @@
+{
+    "slider": {
+      "slider_text1": "Hey There,",
+      "slider_text2":"I'm Khalil",
+      "slider_sub_text1": "I’m not a great programmer;",
+      "slider_sub_text2":"I’m just a good programmer with great habits.",
+      "slider_button1": "Front-End Developer",
+      "slider_button2": "Data Science/ Analysis",
+      "profile_picture":"/static/img/profile_rep.png",
+      "react_logo":"https://cdn-icons-png.flaticon.com/512/5968/5968286.png",
+      "python_logo":"https://ionicframework.com/docs/icons/logo-react-icon.png"
+    }
+  }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700 &display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rakkas');
-@import url('https://fonts.googleapis.com/css?family=Contrail One');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 body {
     width: 100%;
@@ -8,17 +8,17 @@ body {
     font-family: 'Roboto Mono';
 }
 
-.nav-item{
+.nav-item {
     display: flex;
     justify-content: center;
 }
 
 .bg-light {
     --bs-bg-opacity: 1;
-    background-color: transparent !important;
+    background-color: #f3f3f3 !important;
     font-size: 14px;
 }
-.btn3{
+.btn3 {
     width: 100px;
     height: auto;
     color: black;
@@ -28,11 +28,12 @@ body {
     text-decoration: none;
 }
 
-.btn3:hover{
+.btn3:hover {
     color: white;
     background-color: #27706B;
     border: none;
     text-decoration: none;
+    transition: 0.8s;
 }
 .container-fluid nav {
     width: 100%;
@@ -43,7 +44,6 @@ body {
 }
 
 .navbar-collapse ul li a:hover {
-    transition: 0.6s;
     border: 1px solid;
     border-top: 0;
     border-bottom: 0;
@@ -64,7 +64,7 @@ body {
 
 .slider {
     padding: 1.3rem 5rem 0;
-    background-color: #F8F7F1;
+    background-color: #f3f3f3;
 }
 
 .slider .title {
@@ -79,7 +79,7 @@ body {
     font-family: 'roboto mono';
 }
 
-.slider h3{
+.slider h3 {
     text-align: center;
     margin: 3%;
     font-size: 20px;
@@ -96,7 +96,7 @@ button {
     background-color: #27706B;
     cursor: pointer;
 }
-.tags{
+.tags {
     display: flex;
     justify-content: center;
 }
@@ -122,24 +122,17 @@ button {
 }
 
 .rounded1 {
-    width: 40%;
+    width: 45%;
     position: absolute;
     z-index: 2;
 }
 .rounded2 {
-    margin: 3%;
-    margin-top: 10%;
+    margin: 10% 3% 3%;
     width: 20%;
     z-index: 1;
     height: auto;
 }
-.sub-slider{
-    background-color: #fff;
-    position: absolute;
-    z-index:3;
-    width: 100%;
-    height: 10%;
-}
+
 .slider .email {
     font-size: 20px;
     font-weight: 300;
@@ -151,9 +144,61 @@ button {
     background-color: #F85A40;
     width: max-content;
 }
+
+.row {
+    background-color: #ffff;
+    left: 0.8%;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+}
+.background{
+    background-color: #f3f3f3;
+}
+
+.heading h3{
+    margin: 3%;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-family: 'Anton';
+    background-color: #0D2F3F;
+    height:fit-content;
+    width: 150px;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    top: 0;
+    overflow-x: hidden;
+    padding-top:20px ;
+}
+.left h1{
+    left: 0;
+    padding: 9%;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    letter-spacing: 2px;
+    
+}
+.right h1{
+    color: rgb(131, 131, 131);
+    font-family: 'Roboto Mono';
+    padding: 5%;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    right: 0;
+}
+
 @media(max-width: 700px) {
     .slider .title {
         text-align: center;
+        font-size: 35px;
     }
     .rounded1 {
         display: none;
@@ -164,6 +209,9 @@ button {
     .slider {
         padding: 2rem 2rem 0;
     }
+    .split {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
-
-
