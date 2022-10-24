@@ -1,0 +1,69 @@
+{
+"experience": {
+    "items": [
+      {
+        "post": "DATA SCIENCE & BUSINESS ANALYTICS INTERN",
+        "company": "THE SPARKS FOUNDATION",
+        "place":"TUNIS, TUNISIA",
+        "duration":"AUG 2022 - PRESENT",
+        "des1":"collect and analyze data from internal and external sources.",
+        "des2":"Build machine and tune learning models using python.",
+        "des3":"Using BI tools such as PowerBI to analyze data."
+      },
+      {
+        "post": "Data Analytics virtual intern",
+        "company": "PWC",
+        "place":"TUNIS, TUNISIA",
+        "duration":"AUG 2022 - OCT 2022",
+        "des1":"Call center dashboard.",
+        "des2":"Customer retention dashboard.",
+        "des3":"Diversity and inclusion dashboard.",
+        "des4":"Defining KPIs."
+      },
+      {
+        "post": "Data scientist intern",
+        "company": "FIDNESS",
+        "place":"TUNIS, TUNISIA",
+        "duration":"FEB 2022 - JUN 2022",
+        "des1":" Development of a mobile geolocation system to track the number of visits for each partner.",
+        "des2":"Analysis and creation of KPIs.",
+        "des3":"Creation of a machine learning model to track the number of churns.",
+        "des4":" Implementation of all phases in a dashboard."
+      },
+      {
+        "post": "OPENER",
+        "company": "OPEN STARTUP TUNISIA",
+        "place":"TUNIS, TUNISIA",
+        "duration":"FEB 2021 - APR 2022",
+        "des1":" Work on Creative Canvas, BMC, SWOT.",
+        "des2":"Achieving the SDGs as the main goal of our philosophy.",
+        "des3":"Create a unique value proposition.",
+        "des4":" Customer interviews to identify key target consumers.",
+        "des5":" Pitch."
+      },
+      {
+        "post": "FULL STACK JS INTERN",
+        "company": "TRUST IT",
+        "place":"TUNIS, MANOUBA",
+        "duration":"FEB 2020 - JUN 2020",
+        "des1":" Create an application that strives to automatically match buyers and sellers (C2C).",
+        "des2":"using reactJS to create frontend.",
+        "des3":" Creation of backend with nodeJS.",
+        "des4":" Message area with socket.io.",
+        "des5":" Database management with MongoDB."
+      },
+      {
+        "post": "WEBSITE MANAGER",
+        "company": "AIESEC IN THE NETHERLANDS",
+        "place":"TUNIS, TUNISIA",
+        "duration":"AUG 2019 - JAN 2020",
+        "des1":" Management of the website using WordPress .",
+        "des2":"Daily blogs in coordination with the blog responsible .",
+        "des3":" Maintaining and adjusting the website content.",
+        "des4":" Weekly brainstorm to implement a good attraction strategy.",
+        "des5":" A weekly report of the website statistics."
+      }
+      
+    ]
+  }
+}

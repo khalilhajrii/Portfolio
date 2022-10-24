@@ -1,0 +1,17 @@
+{
+    "education": {
+      "items": [
+        {
+          "university": "HIGHER SCHOOL OF DIGITAL ECONOMY",
+          "diploma": "BACHLOR'S DEGREE IN BUSINESS COMPUTING",
+          "place":"TUNIS, MANOUBA"
+        },
+        {
+            "university": "HIGHER SCHOOL OF DIGITAL ECONOMY",
+            "diploma": "MASTER'S DEGREE IN DATA SCIENCE AND SOFTWARE DEVELOMENT",
+            "place":"TUNIS, MANOUBA"
+          }
+        
+      ]
+    }
+  }

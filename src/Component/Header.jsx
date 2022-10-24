@@ -32,9 +32,12 @@ function Header() {
                                 
                                 )})}
                                 </ul>
-                                    <a href={"mailto:"+headerdata.navbar.email}className="btn3"
+                                    <a href={"mailto:"+headerdata.navbar.email}className=" btn3"
                                     >
                                         {headerdata.navbar.talk_button}
+                                    </a>
+                                    <a href={headerdata.navbar.cv} className=" btn3" target="_blank" rel="noopener noreferrer">
+                                        {headerdata.navbar.cv_button}
                                     </a>
                             </div>
                 </div>

@@ -1,17 +1,23 @@
 import React from 'react';
-
+import educationdata from '../data/Education.json'
 const Education = () => {
     return (
-        <div className='row background'>
-            <div className='heading'>
-                <h3>EDUCATION</h3>
-            </div>
-            <div className='education-experience'>
-                <h2> university name</h2>
-                <h3>Degree Name</h3>
-                <h4>Place</h4>
-            </div>
+    <div className='row background'>
+        <div className='heading'>
+            <h3>EDUCATION</h3>
         </div>
+        <div className='mx-auto'>
+            {educationdata.education.items.map((item) => {
+                return (
+                    <div className='education-experience '>
+                        <h2><i class='bx bxs-institution'></i>{item.university}</h2>
+                        <h2><i class='bx bx-certification'></i>{item.diploma}</h2>
+                        <h2><i class='bx bx-map-pin'></i>{item.place}</h2>
+                    </div>
+                )
+            })}
+        </div>
+    </div>
     );
 };
 

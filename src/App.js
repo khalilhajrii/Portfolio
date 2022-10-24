@@ -5,6 +5,7 @@ import Header from './Component/Header';
 import Slider from './Component/Slider';
 import AboutMe from './Component/AboutMe';
 import Education from './Component/Education';
+import Experience from './Component/Experience';
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Slider/>
       <AboutMe/>
       <Education/>
+      <Experience/>
     </div>
   );
 }
