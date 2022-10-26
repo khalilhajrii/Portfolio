@@ -1,0 +1,17 @@
+{
+    "projet": {
+        "items": [
+            {
+                "img": "static/img/projet1_1.png",
+                "title":"CUSTOMER BANKING DASHBOARD",
+                "descritpion":"description",
+                "active":"active"
+            },
+            {
+                "img": "/static/img/projet1_2.png",
+                "title":"CUSTOMER BANKING DASHBOARD",
+                "descritpion":"description"
+            }
+        ]
+    }
+}
