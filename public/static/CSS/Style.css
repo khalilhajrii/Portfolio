@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700 &display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rakkas');
 @import url('https://fonts.googleapis.com/css?family=Anton');
-
+@import "react-slideshow-image/dist/styles.css";
 body {
     width: 100%;
     min-height: 100%;
@@ -19,8 +19,13 @@ a {
 
 .bg-light {
     --bs-bg-opacity: 1;
-    background-color: #F8F7F1 !important;
+    background-color: #f8f7f100 !important;
     font-size: 14px;
+}
+
+.nav-active{
+    background-color:#27706B !important;
+    color:white;
 }
 
 .btn3 {
@@ -79,7 +84,7 @@ a {
     position: relative;
     top: 40px;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     color: #0D2F3F;
     letter-spacing: 3px;
     font-weight: 700;
@@ -269,11 +274,33 @@ li {
     font-family: 'Roboto Mono';
     font-size: 12px;
 }
-
-.carousel-inner img {
-    width: 100% !important;
-    height: auto;
+.image-container img{
+    display:inline-flex;
+    width: 100%;
+    padding: 2%;
 }
+.each-fade h2{
+    font-family: "Roboto Mono";
+    text-align: center;
+    color: #0D2F3F;
+    font-size: larger;
+
+}
+.project-icon{
+    display: flex;
+    justify-content: center;
+}
+.each-fade a{
+    border: none;
+    background-color: #0D2F3F;
+    padding: 1%;
+    text-align: center;
+}
+.each-fade a i{
+    color: white ;
+    
+}
+
 
 
 
@@ -294,6 +321,7 @@ li {
     .slider {
         padding: 2rem 2rem 0;
     }
+
 
     .split {
         width: 100%;

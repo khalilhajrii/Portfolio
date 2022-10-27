@@ -5,13 +5,16 @@
                 "img": "static/img/projet1_1.png",
                 "title":"CUSTOMER BANKING DASHBOARD",
                 "descritpion":"description",
-                "active":"active"
+                "url":"https://github.com/khalilhajrii/PFE_DASHBOARD.git"
+
             },
             {
                 "img": "/static/img/projet1_2.png",
                 "title":"CUSTOMER BANKING DASHBOARD",
-                "descritpion":"description"
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/PFE_DASHBOARD.git"
             }
+            
         ]
     }
 }

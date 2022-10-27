@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import experiencedata from '../data/Experience.json'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Experience = () => {
+    useEffect(()=>{
+        Aos.init({duration:1000})
+    })
     return (
         <div className='row'>
-            <div className='heading'>
+            <div className='heading' data-aos="fade-up">
                 <h3>EXPERIENCE</h3>
+                </div>
                 {experiencedata.experience.items.map((item) =>{
                         return(
-                <div className='experience '>
+                <div className='experience ' data-aos="fade-left">
                 <ul>
                     
                         <h2><i class='bx bxs-institution'></i>{item.post}</h2>
@@ -24,7 +30,7 @@ const Experience = () => {
                         </ul>
                     </div>
                     )})}
-        </div>
+        
         </div>
     );
 };
