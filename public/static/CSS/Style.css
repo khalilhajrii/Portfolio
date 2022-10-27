@@ -23,10 +23,35 @@ a {
     font-size: 14px;
 }
 
-.nav-active{
-    background-color:#27706B !important;
-    color:white;
+.scrolled {
+    transition: 1s;
+    color: #F8F7F1;
+    background-color: #27706B !important;
+  }
+
+ .scrolled div div ul .nav-link.active{
+    color: white;
 }
+
+.scrolled .btn3{
+    color: #F8F7F1;
+}
+.scrolled .btn3:hover{
+    transition: 1s;
+    background-color: #F8F7F1;
+    color: black;
+}
+.scrolled div .navbar-collapse ul li a:hover {
+    border: 1px solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 500px;
+    border-color: white;
+    border-width: 26%;
+    transition: 0.6s;
+}
+
+
 
 .btn3 {
     width: 120px;

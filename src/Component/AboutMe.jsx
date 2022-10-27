@@ -6,7 +6,7 @@ function AboutMe() {
         Aos.init({duration:5000})
     },[])
     return (
-        <div className='row'>
+        <div className='row' id='who'>
             <div className='heading' data-aos="fade-up">
                 <h3>{aboutdata.about.title}</h3>
             </div>
