@@ -2,11 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Rakkas');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import "react-slideshow-image/dist/styles.css";
+html,
 body {
     width: 100%;
     min-height: 100%;
     font-family: 'Roboto Mono';
+    scroll-behavior: smooth;
+
 }
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
 
 a {
     text-decoration: none;
@@ -27,16 +35,16 @@ a {
     transition: 1s;
     color: #F8F7F1;
     background-color: #27706B !important;
-  }
+}
 
- .scrolled div div ul .nav-link.active{
+.scrolled div div ul .nav-link {
     color: white;
 }
 
-.scrolled .btn3{
+.scrolled .btn3 {
     color: #F8F7F1;
 }
-.scrolled .btn3:hover{
+.scrolled .btn3:hover {
     transition: 1s;
     background-color: #F8F7F1;
     color: black;
@@ -50,7 +58,6 @@ a {
     border-width: 26%;
     transition: 0.6s;
 }
-
 
 
 .btn3 {
@@ -79,7 +86,6 @@ a {
     font-family: 'roboto mono';
     margin: 5px;
 }
-
 .navbar-collapse ul li a:hover {
     border: 1px solid;
     border-top: 0;
@@ -89,7 +95,6 @@ a {
     border-width: 26%;
     transition: 0.6s;
 }
-
 .navbar-brand {
     padding: 0;
     font-family: 'Rakkas';
@@ -239,7 +244,7 @@ button {
 }
 
 .row .education-experience {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
     background-color: white;
     margin: 3%;
     width: auto;
@@ -264,21 +269,20 @@ i {
 }
 
 .row .experience {
-    display: flex;
-    border: 1px solid #0D2F3F;
     position: relative;
+    border: 1px solid #0D2F3F;
     left: 25rem;
     background-color: white;
     width: 50%;
     height: auto;
-    margin: 1%;
+    margin: 0.1%;
     padding: 1%;
     border-radius: 10px;
 }
 
 .row .experience:hover {
     transition: 0.5s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -299,49 +303,72 @@ li {
     font-family: 'Roboto Mono';
     font-size: 12px;
 }
-.image-container img{
-    display:inline-flex;
+.image-container img {
+    display: inline-flex;
     width: 100%;
     padding: 2%;
 }
-.each-fade h2{
+.each-fade h2 {
     font-family: "Roboto Mono";
     text-align: center;
     color: #0D2F3F;
     font-size: larger;
 
 }
-.project-icon{
+.project-icon {
     display: flex;
     justify-content: center;
 }
-.each-fade a{
+.each-fade a {
     border: none;
     background-color: #0D2F3F;
     padding: 1%;
     text-align: center;
 }
-.each-fade a i{
-    color: white ;
-    
+.each-fade a i {
+    color: white;
+
+}
+
+.btn-success {
+    margin: 1%;
+    background-color: #27706B;
+    border: none;
+}
+
+/**Footer**/
+.background-footer{
+    background-color:#27706B;
+}
+.text-footer h4{
+    text-align: center;
+    color: #f8f7f1;
+}
+.social-media-footer{
+    display: flex;
+    justify-content: center;
+}
+.social-media-footer a {
+    margin: 3%;
+}
+.social-media-footer a i {
+    color: #F8F7F1;
+    width: 200%;
 }
 
 
-
-
 @media(max-width: 600px) {
+    .bg-light {
+        --bs-bg-opacity: 1;
+        background-color: #f8f7f1 !important;
+        font-size: 14px;
+    }
+
     .slider .title {
         text-align: center;
         font-size: 35px;
     }
 
-    .rounded1 {
-        display: none;
-    }
-
-    .rounded2 {
-        display: none;
-    }
 
     .slider {
         padding: 2rem 2rem 0;
@@ -354,9 +381,23 @@ li {
         justify-content: center;
     }
 
+    .slider .title {
+        padding: 6%;
+        font-size: 20px;
+    }
+
+    .slider h3 {
+        padding: 1%;
+        font-size: 11px;
+    }
+
     .row .education-experience {
         margin: 3%;
 
+    }
+    .tags .btn2,
+    .btn1 {
+        font-size: 10px;
     }
 
     .row .education-experience h2,
@@ -374,4 +415,11 @@ li {
         width: fit-content;
         color: #27706B;
     }
+    .row .experience {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 2%;
+    }
+
 }

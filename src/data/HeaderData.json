@@ -5,20 +5,23 @@
     "items": [
       {
         "nav_item": "WHO AM I ?",
-        "url": "www.google.com"
+        "url": "who"
       },
       {
         "nav_item": "EDUCATION",
-        "url": "www.linkedin.com"
+        "url": "education"
       },
       {
-        "nav_item": "EXPERIENCE"
+        "nav_item": "EXPERIENCE",
+        "url": "experience"
       },
       {
-        "nav_item": "PROJECTS"
+        "nav_item": "PROJECTS",
+        "url":"projects"
       },
       {
-        "nav_item": "SKILLS"
+        "nav_item": "SKILLS",
+        "url":"skills"
       }
     ]
   },
