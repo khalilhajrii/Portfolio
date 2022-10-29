@@ -14,7 +14,7 @@ const Projets = () => {
                 <div className='heading'>
                     <h3>PROJECTS</h3>
                 </div>
-                <div className='slide-container' data-aos="fade-up" data-aos-once="true">
+                <div className='slide-container' data-aos="fade-in" data-aos-once="true">
                     <Fade>
                         {projectdata.projet.items.map((item) => {
                             return (

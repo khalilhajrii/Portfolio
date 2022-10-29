@@ -16,7 +16,7 @@ const Education = () => {
                 <div className='mx-auto'>
                     {educationdata.education.items.map((item) => {
                         return (
-                            <div data-aos="fade-up" className='education-experience' data-aos-once="true">
+                            <div data-aos="fade-in" className='education-experience' data-aos-once="true">
                                 <h2><i class='bx bxs-institution'></i>{item.university}</h2>
                                 <h2><i class='bx bx-certification'></i>{item.diploma}</h2>
                                 <h2><i class='bx bx-map-pin'></i>{item.place}</h2>

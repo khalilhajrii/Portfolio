@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 const Experience = () => {
     const [currentpage, setcurrentpage] = useState(1);
     const [experience, setexperience] = useState([]);
-    const [postperpage] = useState(2);
+    const [postperpage] = useState(3);
 
     useEffect(() => {
         Aos.init({ duration: 1000 })
@@ -27,31 +27,28 @@ const setPage = (pageNum) => {
     return (
         <section id="experience" >
             <div className='row exp'>
-                <div className='heading' data-aos="fade-up" data-aos-once="true">
+                <div className='heading' data-aos="fade-in" data-aos-once="true">
                     <h3>EXPERIENCE</h3>
                 </div>
+                <div className='experience-carte'>
                 {currentposts.map((item) => {
                     return (
-
-                        <div className='experience ' data-aos="fade-left" data-aos-once="true">
+                        <div className='experience ' data-aos="fade-in" data-aos-once="true">
                             <ul>
-
                                 <h2><i class='bx bxs-institution'></i>{item.post}</h2>
                                 <h2><i class='bx bx-certification'></i>{item.company}</h2>
                                 <h2><i class='bx bx-map-pin'></i>{item.place}</h2>
                                 <h2><i class='bx bx-map-pin'></i>{item.duration}</h2>
-
                                 <li>{item.des1}</li>
                                 <li>{item.des2}</li>
                                 <li>{item.des3}</li>
                                 <li>{item.des4}</li>
                                 <li>{item.des5}</li>
-
                             </ul>
                         </div>
-
                     )
                 })}
+                </div>
             </div>
             <center>
             {pageNumbers.map((pageNum, index) => (
