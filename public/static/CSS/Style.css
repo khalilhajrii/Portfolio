@@ -421,6 +421,9 @@ li {
         padding: 2%;
         display: block;
     }
+    .right h1 {
+        font-size: 9px;
+    }
 
     /**experience**/
     .row .education-experience {
