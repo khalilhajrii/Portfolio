@@ -3,13 +3,13 @@ import footerdata from '../data/footerdata.json'
 const Footer = () => {
     return (
         <div className='row background-footer'>
-            {footerdata.footer.items.map((item) => {
+            {footerdata.footer.items.map((item, i) => {
                 return (
-                    <div className='social-media-footer'>
-                        <a href={item.facebook} target='_blank' rel="noreferrer" ><i class='bx bxl-facebook bx-tada'></i> </a>
-                        <a href={item.instagram} target='_blank' rel="noreferrer"> <i class='bx bxl-instagram bx-tada' ></i></a>
-                        <a href={item.linkedin} target='_blank' rel="noreferrer"> <i class='bx bxl-linkedin bx-tada' ></i></a>
-                        <a href={item.github} target='_blank' rel="noreferrer"><i class='bx bxl-github bx-tada' ></i></a>
+                    <div className='social-media-footer' key={i}>
+                        <a href={item.facebook} target='_blank' rel="noreferrer" ><i className='bx bxl-facebook bx-tada'></i> </a>
+                        <a href={item.instagram} target='_blank' rel="noreferrer"> <i className='bx bxl-instagram bx-tada' ></i></a>
+                        <a href={item.linkedin} target='_blank' rel="noreferrer"> <i className='bx bxl-linkedin bx-tada' ></i></a>
+                        <a href={item.github} target='_blank' rel="noreferrer"><i className='bx bxl-github bx-tada' ></i></a>
                     </div>
                 )
             })}

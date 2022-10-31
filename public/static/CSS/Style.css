@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700');
 @import url('https://fonts.googleapis.com/css?family=Rakkas');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import "react-slideshow-image/dist/styles.css";
@@ -28,6 +28,12 @@ i {
     padding: 1%;
     width: fit-content;
     color: #27706B;
+}
+.btn-success {
+    color: white;
+    background-color: #0D2F3F !important;
+    margin: 1%;
+    border: none;
 }
 
 /** navbar **/
@@ -205,6 +211,7 @@ i {
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
+
 }
 .left h1 {
     left: 0;
@@ -215,6 +222,7 @@ i {
     font-family: 'Roboto Mono';
     letter-spacing: 2px;
 }
+
 .right h1 {
     color: rgb(131, 131, 131);
     font-family: 'Roboto Mono';
@@ -224,6 +232,10 @@ i {
     text-align: justify;
     right: 0;
 }
+.right h4 {
+    text-align: center;
+}
+
 
 /** education **/
 .row .education-experience {
@@ -245,21 +257,23 @@ h5 {
 }
 
 /**experience **/
-.experience-carte{
+.experience-carte {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px 2em;
     padding: 10px;
 }
 .row .experience {
-    border: 1px solid #0D2F3F;
-    left: 25rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
     background-color: white;
+    margin: 3%;
+    width: auto;
+    height: auto;
     border-radius: 10px;
 }
 .row .experience:hover {
     transition: 0.3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+    box-shadow: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -306,12 +320,7 @@ li {
     color: white;
 
 }
-.btn-success {
-    color: #0D2F3F;
-    background-color: #F8F7F1 !important;
-    margin: 1%;
-    border: none;
-}
+
 
 /**skills**/
 .carte {
@@ -320,13 +329,18 @@ li {
     gap: 10px 2em;
 }
 .carte-content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
     background-color: white;
-    border-radius: 20px;
-    border: 1px solid;
+    margin: 3%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
 }
 .carte-content:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
     transition: 0.3s;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .title-skill {
     font-family: 'Roboto Mono';
@@ -359,11 +373,29 @@ li {
 
 
 @media(max-width: 600px) {
+    /**navbar**/
     .bg-light {
         --bs-bg-opacity: 1;
         background-color: #f8f7f1 !important;
         font-size: 14px;
     }
+    .scrolled div div ul .nav-link {
+        color: black;
+    }
+    .bg-light .btn3 {
+        margin-left: 41%;
+    }
+    .scrolled .btn3 {
+        color: black;
+        margin-left: 41%;
+    }
+    .scrolled .btn3:hover {
+        transition: 1s;
+        background-color: #F8F7F1;
+        color: black;
+    }
+
+    /**slider**/
     .slider .title {
         text-align: center;
         font-size: 35px;
@@ -371,7 +403,7 @@ li {
     .slider {
         padding: 2rem 2rem 0;
     }
-      .slider .title {
+    .slider .title {
         padding: 6%;
         font-size: 20px;
     }
@@ -379,11 +411,18 @@ li {
         padding: 1%;
         font-size: 11px;
     }
+    /**aboutme**/
     .split {
         width: 100%;
         display: flex;
         justify-content: center;
     }
+    .right {
+        padding: 2%;
+        display: block;
+    }
+
+    /**experience**/
     .row .education-experience {
         margin: 3%;
     }
@@ -391,6 +430,15 @@ li {
     .btn1 {
         font-size: 10px;
     }
+    .experience-carte {
+        padding: 2%;
+        display: block;
+    }
+    .row .experience {
+        margin: 4%;
+    }
+
+    /**education**/
     .row .education-experience h2,
     h4,
     h5 {
@@ -405,21 +453,20 @@ li {
         width: fit-content;
         color: #27706B;
     }
-    .experience-carte{
-        padding: 2%;
-        display: block;
-    }
-    .row .experience {
-        margin: 2%;
-    }
 
+    /**skills**/
     .carte {
         display: block;
     }
     .carte-content {
-        background-color: white;
-        border-radius: 20px;
-        border: 1px solid;
         margin: 2%;
     }
+
+    /**footer**/
+    .background-footer {
+        background-color: #27706B;
+        width: fit-content;
+    }
+
+
 }

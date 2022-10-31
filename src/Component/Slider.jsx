@@ -22,8 +22,8 @@ const Slider = () => {
                     <button className='btn2'> {sliderdata.slider.slider_button2} </button>
                 </div>
                 <div className='text-center'>
-                    <img src={process.env.PUBLIC_URL + sliderdata.slider.profile_picture} class="rounded1" alt="profile" data-aos="fade-up" />
-                    <img src={sliderdata.slider.react_logo} class="rounded2" alt="react" />
+                    <img src={process.env.PUBLIC_URL + sliderdata.slider.profile_picture} className="rounded1" alt="profile" data-aos="fade-up" />
+                    <img src={sliderdata.slider.react_logo} className="rounded2" alt="react" />
                     <img src={sliderdata.slider.python_logo} className='rounded2' alt='python'></img>
                 </div>
             </div>

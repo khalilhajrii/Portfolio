@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import skillsdata from '../data/Skillsdata.json'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -9,13 +9,13 @@ const Skills = () => {
     return (
         <section id='skills'>
             <div className='row cards'>
-                <div className='heading' data-aos="fade-in">
+                <div className='heading' data-aos="fade-in" data-aos-once="true">
                     <h3>SKILLS</h3>
                 </div>
-                <div className='carte' data-aos="fade-in">
-                    {skillsdata.skills.items.map((item) => {
+                <div className='carte' data-aos="zoom-in-right" data-aos-once="true">
+                    {skillsdata.skills.items.map((item, i) => {
                         return (
-                            <div className='carte-content'  data-aos="fade-in">
+                            <div className='carte-content' data-aos="fade-down" data-aos-once="true" key={i}>
                                 <h1 className='title-skill'> {item.title} </h1>
                                 <ul>
                                     <li>{item.a1}</li>

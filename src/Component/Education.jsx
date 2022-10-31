@@ -14,12 +14,12 @@ const Education = () => {
                     <h3>EDUCATION</h3>
                 </div>
                 <div className='mx-auto'>
-                    {educationdata.education.items.map((item) => {
+                    {educationdata.education.items.map((item, i) => {
                         return (
-                            <div data-aos="fade-in" className='education-experience' data-aos-once="true">
-                                <h2><i class='bx bxs-institution'></i>{item.university}</h2>
-                                <h2><i class='bx bx-certification'></i>{item.diploma}</h2>
-                                <h2><i class='bx bx-map-pin'></i>{item.place}</h2>
+                            <div data-aos="fade-up" className='education-experience' data-aos-once="true" key={i}>
+                                <h2><i className='bx bxs-institution'></i>{item.university}</h2>
+                                <h2><i className='bx bx-certification'></i>{item.diploma}</h2>
+                                <h2><i className='bx bx-map-pin'></i>{item.place}</h2>
                             </div>
                         )
                     })}

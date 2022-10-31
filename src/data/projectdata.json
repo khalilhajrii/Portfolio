@@ -13,6 +13,42 @@
                 "title":"CUSTOMER BANKING DASHBOARD",
                 "descritpion":"description",
                 "url":"https://github.com/khalilhajrii/PFE_DASHBOARD.git"
+            },
+            {
+                "img": "/static/img/annicare_1.png",
+                "title":"ADOPTION MANAGEMENT DESKTOP APLICATION",
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/ANNICARE"
+            },
+            {
+                "img": "/static/img/annicare_2.png",
+                "title":"ADOPTION MANAGEMENT DESKTOP APLICATION",
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/ANNICARE"
+            },
+            {
+                "img": "/static/img/annicare_3.png",
+                "title":"ADOPTION MANAGEMENT DESKTOP APLICATION",
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/ANNICARE"
+            },
+            {
+                "img": "/static/img/dashboard1.png",
+                "title":"FIDNESS STARTUP DASHBOARD APPLICATION",
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/Dashboard"
+            },
+            {
+                "img": "/static/img/dashboard2.png",
+                "title":"FIDNESS STARTUP DASHBOARD APPLICATION",
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/Dashboard"
+            },
+            {
+                "img": "/static/img/dashboard3.png",
+                "title":"FIDNESS STARTUP DASHBOARD APPLICATION",
+                "descritpion":"description",
+                "url":"https://github.com/khalilhajrii/Dashboard"
             }
             
         ]

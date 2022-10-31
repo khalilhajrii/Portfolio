@@ -21,8 +21,8 @@ const Experience = () => {
     for (let i = 1; i <= Math.ceil(experience.length / postperpage); i++) {
         pageNumbers.push(i);
     }
-const setPage = (pageNum) => {
-    setcurrentpage(pageNum)
+    const setPage = (pageNum) => {
+        setcurrentpage(pageNum)
     };
     return (
         <section id="experience" >
@@ -31,39 +31,38 @@ const setPage = (pageNum) => {
                     <h3>EXPERIENCE</h3>
                 </div>
                 <div className='experience-carte'>
-                {currentposts.map((item) => {
-                    return (
-                        <div className='experience ' data-aos="fade-in" data-aos-once="true">
-                            <ul>
-                                <h2><i class='bx bxs-institution'></i>{item.post}</h2>
-                                <h2><i class='bx bx-certification'></i>{item.company}</h2>
-                                <h2><i class='bx bx-map-pin'></i>{item.place}</h2>
-                                <h2><i class='bx bx-map-pin'></i>{item.duration}</h2>
-                                <li>{item.des1}</li>
-                                <li>{item.des2}</li>
-                                <li>{item.des3}</li>
-                                <li>{item.des4}</li>
-                                <li>{item.des5}</li>
-                            </ul>
-                        </div>
-                    )
-                })}
+                    {currentposts.map((item, i) => {
+                        return (
+                            <div className='experience ' data-aos="fade-down" data-aos-once="true" key={i}>
+                                <ul>
+                                    <h2><i className='bx bxs-institution'></i>{item.post}</h2>
+                                    <h2><i className='bx bx-certification'></i>{item.company}</h2>
+                                    <h2><i className='bx bx-map-pin'></i>{item.place}</h2>
+                                    <h2><i className='bx bx-map-pin'></i>{item.duration}</h2>
+                                    <li>{item.des1}</li>
+                                    <li>{item.des2}</li>
+                                    <li>{item.des3}</li>
+                                    <li>{item.des4}</li>
+                                    <li>{item.des5}</li>
+                                </ul>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
             <center>
-            {pageNumbers.map((pageNum, index) => (
-                
-                // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a
-                    key={index}
-                    className='btn btn-success'
-                    onClick={() => {
-                        setPage(pageNum);
-                    }}
-                >
-                    {pageNum}{" "}
-                </a>
-            ))}{" "}
+                {pageNumbers.map((pageNum, index) => (
+                    // eslint-disable-next-line jsx-a11y/anchor-is-valid
+                    <a data-aos="fade-down" data-aos-once="true"
+                        key={index}
+                        className='btn btn-success'
+                        onClick={() => {
+                            setPage(pageNum);
+                        }}
+                    >
+                        {pageNum}{" "}
+                    </a>
+                ))}{" "}
             </center>
         </section>
     );

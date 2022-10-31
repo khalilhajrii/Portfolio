@@ -2,6 +2,7 @@
   "navbar": {
     "logo": "خليل",
     "talk_button": "LET'S TALK",
+    "talk_button2": "DOWNLOAD CV",
     "items": [
       {
         "nav_item": "WHO AM I ?",
@@ -26,5 +27,6 @@
     ]
   },
 
-  "email": "khalil.hajri@esen.tn"
+  "email": "khalil.hajri@esen.tn",
+  "curricular":"/static/file/khalil_hajri_cv.pdf"
 }
