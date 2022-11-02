@@ -1,58 +1,53 @@
 {
-    "skills":{
-        "items":
-        [
+    "skills": {
+        "items": [
             {
-                "title":"DATABASES",
-                "a1":"MySQL",
-                "a2":"MongoDB",
-                "a3":"SQL",
-                "a4":"PL/SQL"
-
+                "title": "DATABASES",
+                "a1": "MySQL",
+                "a2": "MongoDB",
+                "a3": "SQL",
+                "a4": "PL/SQL"
             },
             {
-                "title":"FRONT-END",
-                "a1":"ReactJs",
-                "a2":"React-Native",
-                "a3":"html5",
-                "a4":"CSS3",
-                "a5":"Boostrap"
-
-
+                "title": "FRONT-END",
+                "a1": "ReactJs",
+                "a2": "React-Native",
+                "a3": "html5",
+                "a4": "CSS3",
+                "a5": "Boostrap"
             },
             {
-                "title":"BACKEND-END",
-                "a1":"Flask",
-                "a2":"NodeJs",
-                "a3":"Django"
+                "title": "BACK-END",
+                "a1": "Flask",
+                "a2": "NodeJs",
+                "a3": "Django"
             },
             {
-                "title":"PROGRAMMING LANGUAGE",
-                "a1":"Javascript",
-                "a2":"Python",
-                "a3":"Java",
-                "a4":"C"
+                "title": "PROGRAMMING LANGUAGE",
+                "a1": "Javascript",
+                "a2": "Python",
+                "a3": "Java",
+                "a4": "C"
             },
             {
-                "title":"BUSINESS INTELLIGENCE AND ANALYTICAL TOOLS",
-                "a1":"Power BI",
-                "a2":"Tableau",
-                "a3":"Tableau prep",
-                "a4":"ETL",
-                "a5":"Talend"
+                "title": "BUSINESS INTELLIGENCE AND ANALYTICAL TOOLS",
+                "a1": "Power BI",
+                "a2": "Tableau",
+                "a3": "Tableau prep",
+                "a4": "ETL",
+                "a5": "Talend"
             },
             {
-                "title":"DATA SCIENCE",
-                "a1":"Data processing",
-                "a2":"Classification",
-                "a3":"Regression",
-                "a4":"Tensorflow",
-                "a5":"Numpy",
-                "a6":"Pandas",
-                "a7":"Sckit learn",
-                "a8":"Natural Language Processing"
+                "title": "DATA SCIENCE",
+                "a1": "Data processing",
+                "a2": "Classification",
+                "a3": "Regression",
+                "a4": "Tensorflow",
+                "a5": "Numpy",
+                "a6": "Pandas",
+                "a7": "Sckit learn",
+                "a8": "Natural Language Processing"
             }
-
         ]
     }
 }
