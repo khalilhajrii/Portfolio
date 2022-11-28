@@ -1,14 +1,23 @@
 {
 "experience": {
     "items": [
+      
       {
         "post": "DATA SCIENCE & BUSINESS ANALYTICS INTERN",
         "company": "THE SPARKS FOUNDATION",
         "place":"TUNIS, TUNISIA",
-        "duration":"AUG 2022 - PRESENT",
+        "duration":"DEC 2022 - PRESENT",
         "des1":"collect and analyze data from internal and external sources.",
         "des2":"Build machine and tune learning models using python.",
         "des3":"Using BI tools such as PowerBI to analyze data."
+      },
+      {
+        "post": "DATA SCIENCE INTERN",
+        "company": "CODECLAUSE",
+        "place":"TUNIS, TUNISIA",
+        "duration":"NOV 2022 - DEC 2022",
+        "des1":"Fake news predictor.",
+        "des2":"Gold price detector."
       },
       {
         "post": "Data Analytics virtual intern",
